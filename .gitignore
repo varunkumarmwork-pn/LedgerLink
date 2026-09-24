@@ -1,0 +1,31 @@
+# Installed dependencies
+node_modules/
+.venv/
+venv/
+
+# Generated files and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local application data
+/backend/ledgerlink.db
+/backend/ledgerlink.db-*
+/backend/storage/
+
+# Operating system files
+.DS_Store
+Thumbs.db

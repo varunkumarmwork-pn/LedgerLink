@@ -1,0 +1,8 @@
+fastapi[standard]>=0.115
+sqlalchemy>=2.0
+openpyxl>=3.1
+pandas>=2.2
+pytest>=8.0
+rapidfuzz>=3.9
+# local language model for meaning similarity (pulls PyTorch CPU; the model is downloaded once)
+sentence-transformers>=3.0
